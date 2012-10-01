@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PXML xmlns="http://openpandora.org/namespaces/PXML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PXML_schema.xsd">
+	<package id="schwerkraft-schwerkraft-12345">
+		<version major="1" minor="0" release="2" build="2"/>
+		<author name="Ziz" website="http://ziz.delphigl.com"/>
+		<titles>
+			<title lang="en_US">schwerkraft
+      </title>
+		</titles>
+		<title lang="en_US">schwerkraft
+    </title>
+		<descriptions>
+			<description lang="en_US">A game about gravity</description>
+		</descriptions>
+		<description lang="en_US">A game about gravity</description>
+		<icon src="./schwerkraft.png"/>
+	</package>
+	<application id="schwerkraft-schwerkraft-12345" appdata="schwerkraft">
+		<exec command="./schwerkraft.sh"/>
+		<title lang="en_US">schwerkraft</title>
+		<author name="Ziz" website="http://ziz.delphigl.com"/>
+		<version major="1" minor="0" release="2" build="2"/>
+		<osversion major="1" minor="0" release="0" build="0"/>
+		<description lang="en_US">A game about gravity</description>
+		<info name="README" type="text/plain" src="README.txt"/>
+		<icon src="./schwerkraft.png"/>
+		<previewpics>
+			<pic src="previews/screenshot1.png"/>
+		</previewpics>
+		<licenses>
+			<license name="GPLv2+" url="http://www.gnu.org/licenses/gpl-2.0.html" sourcecodeurl="https://github.com/theZiz/schwerkraft"/>
+			<license name="MPL1.1" url="http://www.mozilla.org/MPL/1.1/" sourcecodeurl="https://github.com/theZiz/schwerkraft"/>
+		</licenses>
+		<categories>
+			<category name="Game">
+				<subcategory name="ArcadeGame"/>
+			</category>
+		</categories>
+	</application>
+</PXML>
